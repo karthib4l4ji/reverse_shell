@@ -23,7 +23,7 @@ def socket_bind():
         global port
         global s
         print('[+]Binding the socket to our address...')
-        s.bind((socket.gethostname(), port))
+        s.bind((host, port))
         s.listen(5)
 
     except socket.error as error:
