@@ -1,5 +1,5 @@
 ## Python 3.x Reverse shell Implementation
-Python 3.x based **py_prompt>>** multi-client and multi-threaded functionalitiy included reverse shell. I have planned to add some features into it by enabling persistence in the
+Python 3.x based **py_prompt>>** multi-client and multi-threaded functionality included reverse shell. I have planned to add some features into it by enabling persistence in the
 clientside side script so, whenever the client turn on and off the system. It doesn't really matter when he back to online our command & control will get the reverse connection
 like the meterpreter shell. I'm currently working on that. This is my first python project.
 I just implemented this project to understand how the things really work.<br />
@@ -16,9 +16,10 @@ In Multi_client directory:
 * When you are running the ```server.py``` script type __help__ to view the menu
 
 **Essentials** <br />
-* Pyinstaller will makes the life easier to pack and run the ```client.py```scripts on the target systems without even the python interpreter installed on it.
-* Use Pyinstaller to pack the ```client.py``` script with python applications and also to convert in executable
-* Create the favicon by using Pyinstaller to make the script looks like legitimate one.
+* PyInstaller will makes the life easier to pack and run the ```client.py```scripts on the target systems without even the python interpreter installed on it.
+* Use PyInstaller to pack the ```client.py``` script with python applications and also to convert in executable
+* Create the favicon by using PyInstaller to make the script looks like legitimate one.
+* Click [here](https://pyinstaller.readthedocs.io/en/stable/usage.html) for more about usage of PyInstaller. 
 
 
 **Disclaimer**<br />
