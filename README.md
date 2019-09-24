@@ -4,7 +4,6 @@ clientside side script with persistence so, whenever the client turn on and off 
 like the meterpreter shell. I'm currently working on that. This is my first python project.
 I just implemented this project to understand how the things really work. Python 3 interpreter should be installed on the target system.
 
-Credits to *thenewboston* got the idea from him.<br />
 **usage**<br />
 Multi-client: 
 You should have the static ip to run ```server.py``` for listening and accept all the incoming connections from client side so, just run the script in cloud platform like aws and 
