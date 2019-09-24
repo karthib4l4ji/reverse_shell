@@ -5,7 +5,8 @@ like the meterpreter shell. I'm currently working on that. This is my first pyth
 I just implemented this project to understand how the things really work.<br />
 
 **Outline** <br />
-There must be two scripts running 
+There must be two scripts running<br />
+In Multi_client directory:
 1. ```server.py``` for accepting the incoming connections from several clients and also to select a specific client and execute the commands
 2. ```client.py``` will be considered as our payload. It must be dropped on our target system by performing some social engineering take a look at the essentials below.
 
