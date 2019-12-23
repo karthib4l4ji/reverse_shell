@@ -1,7 +1,5 @@
 ## Python 3.x Reverse shell Implementation
-Python 3.x based **py_prompt>>** multi-client and multi-threaded functionality included reverse shell. I have planned to add some features into it by enabling persistence in the
-clientside side script so, whenever the client turn on and off the system. It doesn't really matter when he back to online our command & control will get the reverse connection
-like the meterpreter shell. I'm currently working on that. This is my first python project.
+Python 3.x based **py_prompt>>** This is my first python project.
 I just implemented this project to understand how the things really work.<br />
 
 **Outline** <br />
